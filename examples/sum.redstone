@@ -1,0 +1,7 @@
+input a 1
+input b 1
+comparator a b eq
+wire a sum
+wire b sum
+output sum
+output eq

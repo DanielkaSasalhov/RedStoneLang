@@ -1,0 +1,5 @@
+# Пример 4: Компаратор сравнивает два сигнала
+input a 1
+input b 1
+comparator a b c
+output c

@@ -1,0 +1,4 @@
+# Пример 1: Кнопка включает лампу
+input button 1
+button lamp
+output lamp

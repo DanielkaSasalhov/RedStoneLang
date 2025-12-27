@@ -1,0 +1,4 @@
+# Пример 5: Факел активирует лампу
+input lever 1
+torch lamp
+output lamp

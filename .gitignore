@@ -1,0 +1,28 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+
+# Linker output
+*.exe
+*.out
+
+# Build directories
+redstone
+build/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Swap files
+*.swp
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env

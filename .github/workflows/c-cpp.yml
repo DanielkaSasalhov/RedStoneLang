@@ -1,0 +1,19 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install build tools
+      run: sudo apt-get update && sudo apt-get install -y clang make
+    - name: Build
+      run: clang src/main.c src/open.c src/keywords.c src/signals.c src/state.c -o redstone
+    - name: Run example
+      run: ./redstone examples/button_lamp.redstone
